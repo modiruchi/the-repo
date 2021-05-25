@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "target": "esnext",
+        "module": "CommonJS",
+        "sourceMap": true,
+        "lib": ["esnext", "dom"],
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noFallthroughCasesInSwitch": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "jsx": "preserve",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "removeComments": true
+    },
+    "include": ["packages"]
+}

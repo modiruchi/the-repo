@@ -1,0 +1,41 @@
+{
+    "name": "@rmodi/monorepo",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "build": "webpack",
+        "start:webpack-dev-server": "webpack serve --open",
+        "start": "yarn build && yarn start:webpack-dev-server"
+    },
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.3",
+        "@babel/plugin-proposal-nullish-coalescing-operator": "^7.14.2",
+        "@babel/plugin-proposal-optional-chaining": "^7.14.2",
+        "@babel/preset-react": "^7.13.13",
+        "@babel/preset-env": "^7.14.2",
+        "@types/node": "^15.6.1",
+        "@types/react": "^17.0.6",
+        "@types/react-dom": "^17.0.5",
+        "@types/webpack": "^5.28.0",
+        "@types/webpack-dev-server": "^3.11.4",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.2.6",
+        "html-webpack-plugin": "^4.5.0",
+        "sass-loader": "^11.1.1",
+        "style-loader": "^2.0.0",
+        "ts-loader": "^8.0.2",
+        "ts-node": "^10.0.0",
+        "tslib": "^2.2.0",
+        "typescript": "^4.2.4",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^4.7.0",
+        "webpack-dev-server": "^3.11.2"
+    },
+    "workspaces": [
+        "packages/*/*"
+    ]
+}
