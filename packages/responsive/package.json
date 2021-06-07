@@ -1,0 +1,9 @@
+{
+    "name": "@rmodi/responsive",
+    "version": "0.0.1",
+    "private": true,
+    "sideEffects": false,
+    "dependencies": {
+        
+    }
+}

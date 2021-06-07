@@ -1,0 +1,10 @@
+{
+    "name": "@responsive/media",
+    "version": "0.0.1",
+    "main": "./index.ts",
+    "sideEffects": false,
+    "dependencies": {
+        
+    }
+
+}
